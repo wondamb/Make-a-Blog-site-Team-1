@@ -1,0 +1,40 @@
+body{
+    background-color: gray;
+    color: white;
+}
+.images{
+    margin: auto;
+    padding: 25px;
+}
+.fig1{
+    margin: 5px;
+    padding: 25px;
+}
+.fig2{
+    margin: 5px;
+    padding: 25px;
+}
+.fig3{
+    margin: 5px;
+    padding: 25px;
+}
+.aboutme{
+    background-color: tomato;
+}
+.navbar-nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .images{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 600px){
+    .images{
+        display: inline-block;
+    }
+	/*Big smartphones [426px -> 600px]*/
+}
