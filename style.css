@@ -1,6 +1,7 @@
 body{
     background-color: gray;
-    color: white;
+    color: red;
+    font-size: x-large;
 }
 .images{
     margin: auto;
@@ -18,8 +19,39 @@ body{
     margin: 5px;
     padding: 25px;
 }
+.title{
+    color: blue;
+    text-align: end; !important
+}
 .aboutme{
-    background-color: tomato;
+    color: blue;
+    background-image: url();
+    width: 100%;
+    font-size: large;
+    
+}
+body { 
+    background: url(instructor.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .myfooter{
+      list-style: none;
+      font-size: large;
+      display: flex;
+      justify-content: space-between;
+      color: black;
+  }
+.contact{
+    background-color: lightsalmon;
+    border-radius: 1rem;
+    font-size: medium;
+    color: blue;
+}
+body h1{
+    counter-reset: red;
 }
 .navbar-nav{
     display: flex;
