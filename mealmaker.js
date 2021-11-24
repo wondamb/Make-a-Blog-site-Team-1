@@ -41,9 +41,8 @@ const menu = {
       name: dishName,
       price: dishPrice,
     }
-    this.courseName=courseName;
   
-    //push
+    //     menu._courses[courseName].push(dish)   
     return this._courses[courseName].push(dish);//my question where is courseName come from?
   },
   getRandomDishFromCourse(courseName){
