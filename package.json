@@ -1,0 +1,22 @@
+{
+  "name": "make-a-blog-site-team-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "excercis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wondamb/Make-a-Blog-site-Team-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wondamb/Make-a-Blog-site-Team-1/issues"
+  },
+  "homepage": "https://github.com/wondamb/Make-a-Blog-site-Team-1#readme",
+  "dependencies": {
+    "webpack": "^5.64.3"
+  }
+}
